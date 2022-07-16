@@ -1,7 +1,7 @@
 import styles from "../styles/Login.module.css"
 import Image from "next/image"
 import {useMoralis} from "react-moralis"
-import icon from "./Images/Moralis-Favicon.svg"
+import icon from "../public/Moralis-Favicon.svg"
 
 export default function Login() {
     const { authenticate, authError } = useMoralis()
