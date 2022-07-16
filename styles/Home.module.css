@@ -108,6 +108,29 @@
   margin-left: 0.5rem;
 }
 
+.logout p {
+  margin: 96px 0;
+  display: grid;
+  place-items: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.logout button {
+  margin-top: 32px;
+  padding: 12px 24px;
+  font-weight: bold;
+  color:white;
+  background-color: rgb(14 165 233);
+  border: 0;
+}
+
+.logout button:hover {
+  transition: ease-in-out;
+  transition-duration: 300ms;
+  background-color: rgb(13, 118, 166);
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
